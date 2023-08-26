@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Propiedades en venta</title>
+	<link href="assets/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <div id="container">
+        <h1>Propiedades en Venta</h1>
+        <div id="search">
+            <label for="bedrooms">Cuartos:</label>
+            <input type="number" id="bedrooms" min="1">
+            <label for="sqmeters">Metros Cuadrados:</label>
+            <input type="number" id="sqmeters" min="1">
+            <button onclick="filterProperties()">Filtrar</button>
+        </div>
+        <div id="properties">
+        </div>
+    </div>
+</main>
+
+<script src="assets/script1.js"></script>
+</body>
+
+</html>
